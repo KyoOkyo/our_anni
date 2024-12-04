@@ -1,0 +1,225 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fce4ec;  /* Soft pink background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff4081;  /* Vibrant pink */
+    margin: 20px 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #ffcdd2;  /* Text glow */
+}
+
+.gallery {
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 8px solid #ff80ab;  /* Pink border */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* Soft shadow */
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.active {
+    display: block;
+}
+
+button {
+    background-color: #ff80ab;  /* Pink buttons */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4081;  /* Darker pink on hover */
+    transform: scale(1.05);
+}
+
+/* Add cute dots under images */
+.dots {
+    text-align: center;
+    margin: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ff80ab;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #ff4081;
+}
+.glitter {
+    position: fixed;  /* Stays in place as you scroll */
+    bottom: 20px;
+    right: 20px;  /* Adjust to move it around */
+    width: 100px;  /* Adjust size */
+    opacity: 0.8;  /* Slightly transparent */
+    z-index: 10;  /* Keeps it on top */
+}
+body {
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXRvend3bGZyaGFyMW5ocHdhNHA1NXpmMDd6cWhjdml0ZGdpa2dubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/147ausGRe6GogM/giphy.webp');
+    background-size: cover;         /* Make sure the background covers the whole page */
+    background-repeat: no-repeat;   /* Prevent the GIF from repeating */
+    background-position: center;    /* Center the GIF */
+    height: 100vh;                  /* Ensure the background covers the whole page height */
+    margin: 0;                      /* Remove any default margin from the body */
+}
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fce4ec;  /* Soft pink background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff4081;  /* Vibrant pink */
+    margin: 20px 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #ffcdd2;  /* Text glow */
+}
+
+.gallery {
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 8px solid #ff80ab;  /* Pink border */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* Soft shadow */
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.active {
+    display: block;
+}
+
+button {
+    background-color: #ff80ab;  /* Pink buttons */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4081;  /* Darker pink on hover */
+    transform: scale(1.05);
+}
+
+/* Add cute dots under images */
+.dots {
+    text-align: center;
+    margin: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ff80ab;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #ff4081;
+}
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #333;
+    font-family: 'Indie Flower', sans-serif;  /* Applying Indie Flower font */
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXRvend3bGZyaGFyMW5ocHdhNHA1NXpmMDd6cWhjdml0ZGdpa2dubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/147ausGRe6GogM/giphy.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Title Style */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Audio Container */
+.audio-container {
+    margin-bottom: 20px;
+}
+
+/* Slider Styles */
+.slider-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider-images img {
+    width: 100%;
+    height: auto;
+}
+
+/* Audio Container */
+.audio-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hide the Play Button when Audio is Playing */
+#playButton {
+    display: block;
+}
+
+audio[autoplay] + #playButton {
+    display: none;
+}
